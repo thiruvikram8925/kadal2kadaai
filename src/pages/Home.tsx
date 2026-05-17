@@ -62,7 +62,7 @@ export default function Home() {
              <motion.img 
                animate={{ y: [0, -10, 0] }}
                transition={{ duration: 4, repeat: Infinity }}
-               src="/src/assets/images/fresh_prawns_ice_1778987143465.png" 
+               src="/images/fresh_prawns_ice_1778987143465.png" 
                className="w-full max-w-sm mx-auto drop-shadow-[0_20px_50px_rgba(34,211,238,0.3)] rounded-3xl"
              />
            </div>

@@ -21,7 +21,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link to="/" className="flex items-center mb-6">
-              <img src="/src/assets/images/kadal_logo_main_1778988430264.png" alt="Kadal to Kadaai Logo" className="w-32 h-32 object-contain" />
+              <img src="/images/kadal_logo_main_1778988430264.png" alt="Kadal to Kadaai Logo" className="w-32 h-32 object-contain" />
             </Link>
             <p className="text-white/40 leading-relaxed mb-6">
               Premium Sea-to-Kitchen delivery service. We bring the freshest catch from the deep blue directly to your doorstep with love and hygiene.

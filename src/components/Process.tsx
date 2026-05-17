@@ -11,13 +11,13 @@ const steps = [
     title: 'Fresh Catch',
     desc: 'Our local fisherman set sail at 4AM to bring you the finest catch directly from the deep blue.',
     icon: Anchor,
-    image: '/src/assets/images/process_fishing_boat_1778987072246.png',
+    image: '/images/process_fishing_boat_1778987072246.png',
   },
   {
     title: 'Quality Check',
     desc: 'Every single piece is inspected for freshness, texture, and oceanic health standards.',
     icon: ShieldCheck,
-    image: '/src/assets/images/process_quality_check_1778987088241.png',
+    image: '/images/process_quality_check_1778987088241.png',
   },
   {
     title: 'Hygienic Cleaning',
@@ -29,13 +29,13 @@ const steps = [
     title: 'Cold Storage',
     desc: 'Maintained at strict sub-zero temperatures to preserve that sea-to-plate authenticity.',
     icon: ThermometerSnowflake,
-    image: '/src/assets/images/cold_storage_fish_1778995081069.png',
+    image: '/images/cold_storage_fish_1778995081069.png',
   },
   {
     title: 'Safe Packaging',
     desc: 'Eco-friendly vacuum sealing ensures zero contamination and 100% locked-in freshness.',
     icon: PackageCheck,
-    image: '/src/assets/images/process_packaging_1778987106172.png',
+    image: '/images/process_packaging_1778987106172.png',
   },
   {
     title: 'Doorstep Delivery',

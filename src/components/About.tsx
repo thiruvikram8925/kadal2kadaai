@@ -19,7 +19,7 @@ export default function About() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 className="rounded-3xl overflow-hidden aspect-square relative group"
               >
-                <img src="/src/assets/images/process_fishing_boat_1778987072246.png" alt="Fish Catching" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+                <img src="/images/process_fishing_boat_1778987072246.png" alt="Fish Catching" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-black/40 flex items-end p-4">
                   <span className="text-[10px] font-bold text-ocean-aqua uppercase tracking-widest bg-black/60 px-2 py-1 rounded">Ocean Capture</span>
                 </div>
@@ -30,7 +30,7 @@ export default function About() {
                  transition={{ delay: 0.1 }}
                 className="rounded-3xl overflow-hidden aspect-[3/4] -mt-12 relative group"
               >
-                <img src="/src/assets/images/coastal_fish_market_1778987733574.png" alt="Fish Market" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+                <img src="/images/coastal_fish_market_1778987733574.png" alt="Fish Market" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-black/40 flex items-end p-4">
                   <span className="text-[10px] font-bold text-ocean-aqua uppercase tracking-widest bg-black/60 px-2 py-1 rounded">Traditional Market</span>
                 </div>
@@ -41,7 +41,7 @@ export default function About() {
                  transition={{ delay: 0.2 }}
                 className="rounded-3xl overflow-hidden aspect-[4/3] -mt-8 relative group"
               >
-                <img src="/src/assets/images/seafood_factory_line_1778987751867.png" alt="Fish Factory" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+                <img src="/images/seafood_factory_line_1778987751867.png" alt="Fish Factory" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-black/40 flex items-end p-4">
                   <span className="text-[10px] font-bold text-ocean-aqua uppercase tracking-widest bg-black/60 px-2 py-1 rounded">Hygienic Facility</span>
                 </div>
@@ -52,7 +52,7 @@ export default function About() {
                  transition={{ delay: 0.3 }}
                 className="rounded-3xl overflow-hidden aspect-square relative group"
               >
-                <img src="/src/assets/images/fresh_crab_ice_1778987126193.png" alt="Fresh Catch" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
+                <img src="/images/fresh_crab_ice_1778987126193.png" alt="Fresh Catch" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-black/40 flex items-end p-4">
                   <span className="text-[10px] font-bold text-ocean-aqua uppercase tracking-widest bg-black/60 px-2 py-1 rounded">Premium Selection</span>
                 </div>

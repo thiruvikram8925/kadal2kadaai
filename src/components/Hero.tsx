@@ -27,7 +27,7 @@ export default function Hero() {
         className="absolute inset-0 z-0"
       >
         <img 
-          src="/src/assets/images/hero_seafood_beach_1778987055670.png" 
+          src="/images/hero_seafood_beach_1778987055670.png" 
           alt="Ocean Background" 
           className="w-full h-full object-cover brightness-50"
           referrerPolicy="no-referrer"
@@ -129,7 +129,7 @@ export default function Hero() {
              className="relative z-10 glass card-gradient p-4 rounded-[40px] border-white/5"
            >
               <img 
-                src="/src/assets/images/fresh_crab_ice_1778987126193.png" 
+                src="/images/fresh_crab_ice_1778987126193.png" 
                 alt="Featured Catch" 
                 className="w-full h-auto rounded-[30px] shadow-2xl"
               />

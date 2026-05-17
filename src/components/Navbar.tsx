@@ -37,7 +37,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between h-full">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3">
-          <img src="/src/assets/images/kadal_logo_main_1778988430264.png" alt="Kadal to Kadaai Logo" className="h-10 md:h-12 w-auto transition-all duration-500" />
+          <img src="/images/kadal_logo_main_1778988430264.png" alt="Kadal to Kadaai Logo" className="h-10 md:h-12 w-auto transition-all duration-500" />
           <span className="text-xl md:text-2xl font-stylish italic font-bold tracking-tight text-black">
             Kadal to Kadaai
           </span>
