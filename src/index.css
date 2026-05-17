@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Inter:wght@100..900&family=JetBrains+Mono:wght@100..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Outfit", "Helvetica Neue", Arial, sans-serif;
+  --font-stylish: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-ocean-deep: #020C1B;
+  --color-ocean-navy: #0A192F;
+  --color-ocean-main: #06B6D4;
+  --color-ocean-aqua: #22D3EE;
+  --color-ocean-blue: #3B82F6;
+  --color-white-foam: #F8FAFC;
+}
+
+@layer base {
+  body {
+    @apply bg-ocean-deep text-white-foam antialiased;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display tracking-tight text-white-foam;
+  }
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ocean-bg {
+  background: radial-gradient(circle at 20% 30%, var(--color-ocean-navy) 0%, var(--color-ocean-deep) 100%);
+}
+
+.cyan-glow {
+  text-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
+}
+
+.card-gradient {
+  background: linear-gradient(135deg, rgba(34, 211, 238, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%);
+}
+
+.badge-gradient {
+  background: linear-gradient(90deg, var(--color-ocean-main), var(--color-ocean-blue));
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-linear-to-r from-ocean-aqua to-ocean-blue;
+}
+
+/* Custom smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  @keyframes caustics {
+    0%, 100% { 
+      transform: scale(1) rotate(0deg) translate(0px, 0px);
+      opacity: 0.1;
+    }
+    33% { 
+      transform: scale(1.1) rotate(2deg) translate(20px, -10px);
+      opacity: 0.2;
+    }
+    66% { 
+      transform: scale(1.05) rotate(-1deg) translate(-10px, 15px);
+      opacity: 0.15;
+    }
+  }
+
+  .animate-caustics {
+    animation: caustics 12s infinite ease-in-out;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Kadal to Kadaai",
+  "description": "Premium Sea-to-Kitchen Fresh Seafood Marketplace with immersive ocean-inspired UX.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
